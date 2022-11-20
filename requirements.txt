@@ -1,0 +1,3 @@
+multiprocessing
+opencv-python3
+RPi.GPIO

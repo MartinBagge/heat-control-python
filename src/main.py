@@ -21,7 +21,7 @@ def main():
         for i in range(queue.qsize()):
             indicators.append(queue.get())
         if utils.calculate_on_off(indicators) and restarts != 3:
-            #gpio.punch_relay()
+            gpio.punch_relay()
             print("punched relay")
             if restarts == 0:
                 first_restart = time.time()
